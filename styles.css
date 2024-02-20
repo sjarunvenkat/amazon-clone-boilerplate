@@ -1,0 +1,108 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.topbar #location img{
+    width: 2rem;
+    height: 2rem;
+}
+
+
+.topbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    background-color: #121921;
+    color: white;
+    height: 5rem;
+    
+}
+
+.topbar #search{
+    width: 70rem;
+    height: 3rem;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.categories{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+
+    background-color: #243040;
+    color: white;   
+    height: 3rem;   
+    font-size: 1.1rem;
+}
+
+.categories .one{
+    display: flex;
+    flex-direction: row;
+}
+
+.categories .one div{
+    padding: 10px;
+}
+
+.categories .two{
+    display: flex;
+    flex-direction: row;
+}
+
+.banner{
+    display: flex;
+    ;
+}
+
+.showcase{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+
+    column-gap: 1em;
+
+    margin: 30px;
+    flex-flow: column-wrap;
+    background-color: white;
+    top: 500px;
+    justify-content: space-between;
+}
+
+.showcase #sh1{
+    height: 25rem;
+    width: 25rem;
+    margin: 10px 10px 10px 10px;
+}
+
+.showcase #sh2{
+    height: 25rem;
+    width: 25rem;
+    margin: 10px 10px 10px 10px;
+}
+
+.showcase #sh3{
+    height: 25rem;
+    width: 25rem;
+    margin: 10px 10px 10px 10px;
+}
+
+.showcase #sh4{
+    height: 10rem;
+    width: 25rem;
+}
+
+.showcase #sh4 #sh5{
+    margin: 10px 10px 10px 10px;
+    height: 15rem;
+    width: 15rem;
+}
+
+.showcase #signinbox{
+    text-align: center;
+    height: 40px;
+    width: 360px;
+    background-color: #fed813;
+}
